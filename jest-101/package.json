@@ -1,0 +1,20 @@
+{
+  "name": "jest-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "stub-server":"node ../stub-server/App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
+  }
+}
